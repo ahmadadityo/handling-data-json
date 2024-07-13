@@ -1,0 +1,52 @@
+{
+    "intents": [
+        {
+            "tag": "greetings",
+            "patterns": [
+                "halo",
+                "hai"
+            ],
+            "responses": [
+                "Halo! Ada yang bisa saya bantu?",
+                "Hai! Apa yang ingin Anda tanyakan?"
+            ]
+        },
+        {
+            "tag": "bye",
+            "patterns": [
+                "goodbye",
+                "bye",
+                "see you later"
+            ],
+            "responses": [
+                "Goodbye! Have a nice day.",
+                "Bye! See you later.",
+                "It was nice talking to you!"
+            ]
+        },
+        {
+            "tag": "how_are_you",
+            "patterns": [
+                "how are you",
+                "how's it going"
+            ],
+            "responses": [
+                "I'm doing well, thanks for asking! How about you?",
+                "I'm feeling great! What can I do for you today?"
+            ]
+        },
+        {
+            "tag": "makan",
+            "patterns": [
+                "makan apa",
+                "lapar",
+                "mau makan"
+            ],
+            "responses": [
+                "Ada yang ingin dipesan?",
+                "Mau makan apa hari ini?",
+                "Ayo kita cari makan!"
+            ]
+        }
+    ]
+}
